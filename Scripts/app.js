@@ -103,6 +103,11 @@
         readAddressBook();
 
         loadFooter();
+
+        // JQUERY STUFF GOES HERE
+        var firstH1 = $("#firstH1").text("Hello World").css("color","red");
+
+
     }
 
 
