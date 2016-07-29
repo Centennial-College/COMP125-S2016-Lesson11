@@ -1,4 +1,4 @@
-# COMP125-Lesson10
+# COMP125-Lesson11
 
-## Updating Web Pages with AJAX
+## Intro to JQuery
 
