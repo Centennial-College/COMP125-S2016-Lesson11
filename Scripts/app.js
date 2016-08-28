@@ -113,8 +113,9 @@
             .animate({
                 opacity: 0.2,
                 left: "+=500"
-            }, 1000,
+            }, 1000, "easeInBounce",
             () => $('#firstH1').fadeTo(500, 1))
+
 
     }
 
