@@ -105,8 +105,16 @@
         loadFooter();
 
         // JQUERY STUFF GOES HERE
-        var firstH1 = $("#firstH1").text("Hello World").css("color","red");
-
+        var firstH1 = $("#firstH1")
+            .text("Hello World")
+            .css("color", "red")
+            .css('position', 'relative')
+            .css('left', '-175px')
+            .animate({
+                opacity: 0.2,
+                left: "+=500"
+            }, 1000,
+            () => $('#firstH1').fadeTo(500, 1))
 
     }
 
